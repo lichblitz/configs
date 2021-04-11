@@ -29,7 +29,15 @@ let t_Co=256
 "autocmd bufnewfile,bufread *.jsx set filetype=javascript.jsx
 "autocmd bufnewfile,bufread *.js set filetype=javascript.jsx
 
-"" Searching
+" Eslint ale
+let g:ale_fixers = {
+\   '*': ['remove_trailing_lines', 'trim_whitespace'],
+\   'javascript': ['eslint'],
+\}
+let g:ale_sign_error = '❌'
+let g:ale_sign_warning = '⚠️'
+let g:ale_fix_on_save = 1
+" Searching
 set hlsearch                    " highlight matches
 set incsearch                   " incremental searching
 set ignorecase                  " searches are case insensitive...
