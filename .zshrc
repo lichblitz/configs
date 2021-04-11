@@ -1,3 +1,4 @@
+
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
@@ -119,7 +120,7 @@ function openNvim {
 
 export FZF_DEFAULT_COMMAND='ag -g ""'
 
-export JAVA_HOME=/Library/Internet\ Plug-Ins/JavaAppletPlugin.plugin/Contents/Home
+# export JAVA_HOME=/Library/Internet\ Plug-Ins/JavaAppletPlugin.plugin/Contents/Home
 # export PATH="$HOME/.fastlane/bin:$PATH"
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
@@ -135,4 +136,7 @@ export PATH=$PATH:$ANDROID_HOME/emulator
 export PATH=$PATH:$ANDROID_HOME/tools
 export PATH=$PATH:$ANDROID_HOME/tools/bin
 export PATH=$PATH:$ANDROID_HOME/platform-tools
+# JAVA_HOME for Ubuntu
+# export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
+# JAVA_HOME for Mac
 export JAVA_HOME=$(/usr/libexec/java_home)

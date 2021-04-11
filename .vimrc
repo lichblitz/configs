@@ -14,12 +14,15 @@ so ~/.vim/plugins.vim
 so ~/.vim/maps.vim
 so ~/.vim/plugin-config.vim
 
-colorscheme gruvbox
+" colorscheme gruvbox
+colorscheme codedark
+
 let g:gruvbox_contrast_dark = "hard"
 highlight Normal ctermbg=NONE
 set laststatus=2
 set noshowmode
 
+let t_Co=256
 " Javascript
 "autocmd bufnewfile,bufread *.tsx set filetype=typescript.tsx
 "autocmd bufnewfile,bufread *.ts set filetype=typescript.tsx

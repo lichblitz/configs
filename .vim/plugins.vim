@@ -1,4 +1,6 @@
 call plug#begin('~/.vim/plugged')
+" linting js
+Plug 'w0rp/ale'
 
 " syntax
 Plug 'sheerun/vim-polyglot'
@@ -13,6 +15,7 @@ Plug 'itchyny/lightline.vim'
 " Themes
 Plug 'morhetz/gruvbox'
 Plug 'shinchu/lightline-gruvbox.vim'
+Plug 'tomasiser/vim-code-dark'
 
 " Tree
 Plug 'scrooloose/nerdtree'
